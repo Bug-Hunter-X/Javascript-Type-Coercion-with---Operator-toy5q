@@ -1,0 +1,2 @@
+function foo(a,b){return a+b;}console.log(foo(1, "2")); //Output: 12
+This is because in javascript when you use the + operator between a number and a string, javascript converts the number to a string and then concatenates the two strings.
